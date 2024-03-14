@@ -1,0 +1,72 @@
+<html>
+<head>
+<body>
+<h1>Travel reservation form</h1>
+
+
+
+<h2>* denotes mandatory</h2>
+
+
+<form>
+
+<p>Full name*:</p>
+<input type="text" placeholder="FirstName LastName" required>
+
+
+    <p>Email address*</p>
+    <input type="email" required>
+
+
+    <p>Select tour package</p>
+    <select>
+        <option value="co to Goa">Goa</option>
+        <option value="Premium">Premium</option>
+        <option value="VIP">VIP</option>
+        <option value="BiedaWersja">BiedaWersja</option>
+    </select>
+
+<p>Arrival date*</p>
+    <input type="date" required>
+
+
+    <p>Number of persons*</p>
+    <input type="number" required>
+
+
+    <p>What would you want to avail*</p>
+    <input type="checkbox" id="boarding">
+    <label for="boarding">Boarding</label><br>
+
+    <input type="checkbox" id="fooding">
+    <label for="fooding">Fooding</label><br>
+
+    <input type="checkbox" id="sightSeeing">
+    <label for="sightSeeing">Sight Seeing</label><br>
+
+
+    <p>Discount Coupon code:</p>
+    <input type="text">
+
+
+    <p>Terms and conditions*</p>
+    <input type="radio" id="agree" required>
+    <label for="agree">I agree</label>
+
+    <input type="radio" id="disagree">
+    <label for="disagree">I disagree</label><br>
+
+
+    <button type="button">Complete reservation</button>
+
+
+
+
+
+
+
+
+</form>
+</body>
+</head>
+</html>
