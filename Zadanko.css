@@ -1,0 +1,8 @@
+
+.b{
+    background-color: steelblue;
+}
+
+.b:first-of-type{
+    background-color: white;
+}
